@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/sweep-pad",
+  "name": "Sweep Pad",
+  "vendor": "FreePats",
+  "description": "General MIDI program 96 (Synth Pad 8, sweep) from ZynAddSubFX/Yoshimi.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-pad.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-pad.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "pad",
+    "gm"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/sweep-pad/releases/download/2019-08-13/SweepPad-SF2-20190813.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 7588540
+    }
+  ]
+}

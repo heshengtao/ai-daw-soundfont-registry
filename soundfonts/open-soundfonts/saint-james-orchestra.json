@@ -1,0 +1,30 @@
+{
+  "slug": "open-soundfonts/saint-james-orchestra",
+  "name": "Saint James Orchestra Soundfonts",
+  "vendor": "Saint James Orchestra",
+  "description": "48 separate orchestral SF2 banks — violin, viola, cello and bass with arco, legato, detache, pizzicato and tremolo variants, plus brass, woodwinds, harp, piano and percussion. GPL-3.0; the repository is the distribution point, so this entry opens it rather than a single archive.",
+  "homepage": "https://github.com/open-soundfonts/Saint_James_Orchestra_soundfonts",
+  "source": "https://github.com/open-soundfonts/Saint_James_Orchestra_soundfonts",
+  "license": "GPL-3.0-only",
+  "license_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "collection",
+  "tags": [
+    "orchestral",
+    "strings",
+    "brass",
+    "woodwind",
+    "gpl"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/open-soundfonts/Saint_James_Orchestra_soundfonts",
+      "format": "sf2",
+      "install": "external",
+      "note": "One repository with 49 .sf2 files; download the ones you need (or the repo zip) and load them as separate banks."
+    }
+  ]
+}

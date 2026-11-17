@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/synth-bass-lead",
+  "name": "Synth Bass & Lead",
+  "vendor": "FreePats",
+  "description": "General MIDI program 88 (Synth Lead 8, bass + lead) made with Surge.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-lead.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-lead.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "lead",
+    "gm"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/synth-bass-lead/releases/download/2020-05-22/SynthBassLead-SF2-20200522.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 6446819
+    }
+  ]
+}

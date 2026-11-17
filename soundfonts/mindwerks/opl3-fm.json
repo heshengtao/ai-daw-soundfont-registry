@@ -1,0 +1,30 @@
+{
+  "slug": "mindwerks/opl3-fm",
+  "name": "OPL-3 FM 128M",
+  "vendor": "Mindwerks",
+  "description": "A General MIDI bank built from OPL3 FM synthesis: the sound of early-1990s AdLib and Sound Blaster cards, with 128 melodic presets and a drum kit. CC-BY-SA-4.0.",
+  "homepage": "https://github.com/Mindwerks/opl3-soundfont",
+  "source": "https://github.com/Mindwerks/opl3-soundfont",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "gm",
+  "tags": [
+    "gm",
+    "opl3",
+    "fm",
+    "retro",
+    "chiptune"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/Mindwerks/opl3-soundfont/releases/download/1.0/OPL-3_FM_128M.sf2",
+      "format": "sf2",
+      "install": "file",
+      "size": 135020964
+    }
+  ]
+}

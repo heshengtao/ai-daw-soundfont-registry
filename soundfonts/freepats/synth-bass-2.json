@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/synth-bass-2",
+  "name": "Synth Bass 2",
+  "vendor": "FreePats",
+  "description": "General MIDI program 40 (Synth Bass 2): the DX7 'Bass 1' patch via Hexter.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-bass.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-bass.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "bass",
+    "synth",
+    "gm",
+    "dx7"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/synth-bass-2/releases/download/2021-04-05/SynthBass2-SF2-20210405.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 1766956
+    }
+  ]
+}

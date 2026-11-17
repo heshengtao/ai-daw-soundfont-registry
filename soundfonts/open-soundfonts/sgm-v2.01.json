@@ -1,0 +1,29 @@
+{
+  "slug": "open-soundfonts/sgm-v2.01",
+  "name": "SGM V2.01",
+  "vendor": "Open Soundfonts",
+  "description": "A large GM/GS bank split into three SF2 parts to fit GitHub's file-size limit: presets 0-30, 31-79, and 80-127 plus every GS drum kit. Download all three parts to get the complete bank. GPL-3.0.",
+  "homepage": "https://github.com/open-soundfonts/SGM_V2_01_soundfonts",
+  "source": "https://github.com/open-soundfonts/SGM_V2_01_soundfonts",
+  "license": "GPL-3.0-only",
+  "license_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "gm",
+  "tags": [
+    "gm",
+    "gs",
+    "orchestral",
+    "gpl"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/open-soundfonts/SGM_V2_01_soundfonts",
+      "format": "sf2",
+      "install": "external",
+      "note": "Three .tar.gz parts (about 270 MB total); a client cannot merge them into one bank, so this entry links the project page."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/lately-bass",
+  "name": "Lately Bass",
+  "vendor": "FreePats",
+  "description": "The TX81Z 'Lately Bass' patch, recreated with Dexed and adapted for SF2.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-bass.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-bass.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "bass",
+    "synth",
+    "fm",
+    "tx81z"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/lately-bass/releases/download/2024-04-09/LatelyBass-SF2-20240409.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 2047154
+    }
+  ]
+}

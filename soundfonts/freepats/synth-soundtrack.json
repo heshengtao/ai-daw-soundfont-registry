@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/synth-soundtrack",
+  "name": "Synth Soundtrack",
+  "vendor": "FreePats",
+  "description": "General MIDI program 98 (Synth FX 2, soundtrack) made with ZynAddSubFX.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-effects.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-effects.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "fx",
+    "gm"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/synth-soundtrack/releases/download/20200521/SynthSoundtrack-SF2-20200521.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 18137576
+    }
+  ]
+}

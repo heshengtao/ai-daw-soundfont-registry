@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/honky-tonk-piano",
+  "name": "Honky-Tonk Piano (small)",
+  "vendor": "FreePats",
+  "description": "A Francis Bacon player piano recorded in stereo by Piotr Barcz: the detuned, historic honky-tonk tone. Small SF2 variant.",
+  "homepage": "https://freepats.zenvoid.org/Piano/honky-tonk-piano.html",
+  "source": "https://freepats.zenvoid.org/Piano/honky-tonk-piano.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "piano",
+    "honky-tonk",
+    "ragtime"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/old-piano-FB/releases/download/2020-04-01/PianoFB-small-SF2-20200401.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 9214536
+    }
+  ]
+}

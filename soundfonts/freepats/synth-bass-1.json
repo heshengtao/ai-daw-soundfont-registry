@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/synth-bass-1",
+  "name": "Synth Bass 1",
+  "vendor": "FreePats",
+  "description": "General MIDI program 39 (Synth Bass 1), recorded from ZynAddSubFX/Yoshimi.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-bass.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-bass.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "bass",
+    "synth",
+    "gm"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/synth-bass-1/releases/download/2019-07-23/SynthBass1-SF2-20190723.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 3382236
+    }
+  ]
+}

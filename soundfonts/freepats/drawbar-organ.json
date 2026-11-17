@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/drawbar-organ",
+  "name": "Drawbar Organ",
+  "vendor": "FreePats",
+  "description": "Hammond-style drawbar organ recorded from the setBfree software synthesizer.",
+  "homepage": "https://freepats.zenvoid.org/Organ/electric-organ.html",
+  "source": "https://freepats.zenvoid.org/Organ/electric-organ.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "organ",
+    "hammond",
+    "drawbar"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Organ/DrawbarOrganEmulation/DrawbarOrganEmulation-SF2-20190712.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 6037780
+    }
+  ]
+}

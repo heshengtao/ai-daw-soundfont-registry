@@ -1,0 +1,30 @@
+{
+  "slug": "musescore/general-hq",
+  "name": "MuseScore General HQ",
+  "vendor": "MuseScore",
+  "description": "The high-quality build of MuseScore General (S. Christian Collins' adaptation of FluidR3Mono), full 128-preset GM set. The Debian source tarball contains MuseScore_General_HQ.sf2.",
+  "homepage": "https://packages.debian.org/sid/musescore-general-soundfont",
+  "source": "https://packages.debian.org/sid/musescore-general-soundfont",
+  "license": "MIT",
+  "license_url": "https://opensource.org/license/mit",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "gm",
+  "tags": [
+    "gm",
+    "orchestral",
+    "musescore",
+    "hq"
+  ],
+  "files": [
+    {
+      "url": "https://deb.debian.org/debian/pool/main/m/musescore-general-soundfont/musescore-general-soundfont_0.2.1.orig.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 274424736
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/bagpipe",
+  "name": "Bagpipe (small)",
+  "vendor": "FreePats",
+  "description": "A bagpipe in G recorded in 2020 by Gilles Sadowski; the small SF2 variant trims the sample set while keeping the drone and chanter.",
+  "homepage": "https://freepats.zenvoid.org/Ethnic/bagpipe.html",
+  "source": "https://freepats.zenvoid.org/Ethnic/bagpipe.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "bagpipe",
+    "folk",
+    "ethnic"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/bagpipe/releases/download/2026-08-06/Bagpipe-small-SF2-20260806.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 6976695
+    }
+  ]
+}

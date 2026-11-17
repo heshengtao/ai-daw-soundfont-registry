@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/electric-bass-finger",
+  "name": "Fingered Electric Bass (YR)",
+  "vendor": "FreePats",
+  "description": "Fingered electric bass from the same Yamaha RBX session as the picked variant; CC0.",
+  "homepage": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-bass.html",
+  "source": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-bass.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "bass",
+    "electric bass",
+    "finger"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/electric-bass-YR/releases/download/2019-09-30/FingerBassYR-SF2-20190930.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 2613000
+    }
+  ]
+}

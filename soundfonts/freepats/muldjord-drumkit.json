@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/muldjord-drumkit",
+  "name": "Muldjord Drum Kit",
+  "vendor": "FreePats",
+  "description": "Lars Muldjord's acoustic kit: two kicks, three hanging toms, floor tom, snare, hi-hat, two crashes, two rides and a china, with velocity layers. CC-BY-4.0.",
+  "homepage": "https://freepats.zenvoid.org/Percussion/acoustic-drum-kit.html",
+  "source": "https://freepats.zenvoid.org/Percussion/acoustic-drum-kit.html",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "drumkit",
+  "tags": [
+    "drums",
+    "acoustic",
+    "drum kit"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/muldjordkit/releases/download/2020-10-18/MuldjordKit-SF2-20201018.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 54877940
+    }
+  ]
+}

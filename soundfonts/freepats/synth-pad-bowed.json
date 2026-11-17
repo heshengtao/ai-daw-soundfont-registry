@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/synth-pad-bowed",
+  "name": "Synth Pad Bowed",
+  "vendor": "FreePats",
+  "description": "General MIDI program 93 (Synth Pad 5, bowed), samples by the Strix SoundFont Team.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-pad.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-pad.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "pad",
+    "gm",
+    "bowed"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/synth-pad-bowed/releases/download/2019-07-19/SynthPadBowed-SF2-20190719.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 22310184
+    }
+  ]
+}

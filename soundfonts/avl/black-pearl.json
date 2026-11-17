@@ -1,0 +1,28 @@
+{
+  "slug": "avl/black-pearl",
+  "name": "AVL Drumkits — Black Pearl",
+  "vendor": "AVL Drumkits",
+  "description": "Black Pearl acoustic kit recorded with 5 velocity layers per piece, packaged as a single SF2 for the AVL LV2 plugin. CC-BY-SA-3.0.",
+  "homepage": "https://www.bandshed.net/avldrumkits/",
+  "source": "https://www.bandshed.net/avldrumkits/",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "drumkit",
+  "tags": [
+    "drums",
+    "acoustic",
+    "drum kit"
+  ],
+  "files": [
+    {
+      "url": "https://www.bandshed.net/sounds/AVLDrumkits_SF2/Black_Pearl_4_LV2.sf2",
+      "format": "sf2",
+      "install": "file",
+      "size": 19448258
+    }
+  ]
+}

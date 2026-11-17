@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/synth-crystal",
+  "name": "Synth Crystal",
+  "vendor": "FreePats",
+  "description": "General MIDI program 99 (Synth FX 3, crystal) rendered from Dexed.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-effects.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-effects.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "fx",
+    "gm"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/synth-crystal/releases/download/2019-08-12/SynthCrystal-SF2-20190812.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 4571849
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "avl/red-zeppelin",
+  "name": "AVL Drumkits — Red Zeppelin",
+  "vendor": "AVL Drumkits",
+  "description": "Red Zeppelin kit: a bigger, roomier rock kit with 5 velocity layers per piece. CC-BY-SA-3.0.",
+  "homepage": "https://www.bandshed.net/avldrumkits/",
+  "source": "https://www.bandshed.net/avldrumkits/",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "drumkit",
+  "tags": [
+    "drums",
+    "acoustic",
+    "rock"
+  ],
+  "files": [
+    {
+      "url": "https://www.bandshed.net/sounds/AVLDrumkits_SF2/Red_Zeppelin_4_LV2.sf2",
+      "format": "sf2",
+      "install": "file",
+      "size": 26470546
+    }
+  ]
+}

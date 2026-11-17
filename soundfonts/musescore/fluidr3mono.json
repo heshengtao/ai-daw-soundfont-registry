@@ -1,0 +1,30 @@
+{
+  "slug": "musescore/fluidr3mono",
+  "name": "FluidR3Mono GM",
+  "vendor": "Michael Cowgill / Frank Wen",
+  "description": "The mono, memory-lean version of FluidR3 GM (2.315) that MuseScore 2 shipped, MIT licensed. The Debian source tarball holds FluidR3Mono_GM2-315.SF2.",
+  "homepage": "https://packages.debian.org/sid/fluidr3mono-gm-soundfont",
+  "source": "https://packages.debian.org/sid/fluidr3mono-gm-soundfont",
+  "license": "MIT",
+  "license_url": "https://opensource.org/license/mit",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "gm",
+  "tags": [
+    "gm",
+    "fluidr3",
+    "mono",
+    "lightweight"
+  ],
+  "files": [
+    {
+      "url": "https://deb.debian.org/debian/pool/main/f/fluidr3mono-gm-soundfont/fluidr3mono-gm-soundfont_2.315.orig.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 86444136
+    }
+  ]
+}

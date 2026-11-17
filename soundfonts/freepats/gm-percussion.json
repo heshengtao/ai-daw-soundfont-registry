@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/gm-percussion",
+  "name": "FreePats GM Percussion Set",
+  "vendor": "FreePats",
+  "description": "Standalone General MIDI percussion set with more layers than the kit inside the FreePats GM bank; cuica and timbales are still missing. GPL-3.0.",
+  "homepage": "https://freepats.zenvoid.org/SoundSets/general-midi.html",
+  "source": "https://freepats.zenvoid.org/SoundSets/general-midi.html",
+  "license": "GPL-3.0-or-later",
+  "license_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "drumkit",
+  "tags": [
+    "drums",
+    "gm",
+    "percussion"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/SoundSets/GM-PercussionSet/FreePatsGM-Percussion-SF2-20200822.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 15610628
+    }
+  ]
+}

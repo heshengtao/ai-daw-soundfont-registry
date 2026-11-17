@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/general-midi",
+  "name": "FreePats General MIDI",
+  "vendor": "FreePats",
+  "description": "FreePats' own General MIDI set: 45 melodic instruments plus a 43-entry percussion kit, deliberately incomplete and expanded release by release. GPL-3.0 with a linking exception.",
+  "homepage": "https://freepats.zenvoid.org/SoundSets/general-midi.html",
+  "source": "https://freepats.zenvoid.org/SoundSets/general-midi.html",
+  "license": "GPL-3.0-or-later",
+  "license_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "gm",
+  "tags": [
+    "gm",
+    "general midi",
+    "gpl"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/SoundSets/FreePats-GeneralMIDI/FreePatsGM-SF2-20221026.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 237775919
+    }
+  ]
+}

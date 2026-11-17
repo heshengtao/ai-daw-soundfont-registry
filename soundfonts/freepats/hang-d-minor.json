@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/hang-d-minor",
+  "name": "Hang (D Minor)",
+  "vendor": "FreePats",
+  "description": "A hang tuned in D minor, recorded in 2017 in the Medialab-Prado auditorium; the bank covers the instrument's diatonic scale with its characteristic metallic ring.",
+  "homepage": "https://freepats.zenvoid.org/ChromaticPercussion/hang.html",
+  "source": "https://freepats.zenvoid.org/ChromaticPercussion/hang.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "hang",
+    "hang drum",
+    "percussion",
+    "ethnic"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SF2-20220330.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 11474857
+    }
+  ]
+}

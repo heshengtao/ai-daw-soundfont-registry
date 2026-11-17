@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/electric-guitar-jazz",
+  "name": "Electric Guitar Jazz (bridge, small)",
+  "vendor": "FreePats",
+  "description": "FSBS jazz electric guitar: a Fender recorded direct, then run through an amp and effects chain; bridge pickup, small variant.",
+  "homepage": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-guitar.html",
+  "source": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-guitar.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "guitar",
+    "electric guitar",
+    "jazz"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/electric-guitar-FSBS-jazz/releases/download/2026-08-07/EGuitarFSBS-jazz-bridge-small-SF2-20260807.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 5232868
+    }
+  ]
+}

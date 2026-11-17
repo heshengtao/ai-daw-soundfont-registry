@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/fm-piano-2",
+  "name": "FM Piano #2 (bright)",
+  "vendor": "FreePats",
+  "description": "A brighter variation of the DX7 electric piano, also recorded from Hexter.",
+  "homepage": "https://freepats.zenvoid.org/ElectricPiano/synthesized-piano.html",
+  "source": "https://freepats.zenvoid.org/ElectricPiano/synthesized-piano.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "piano",
+    "electric piano",
+    "fm",
+    "bright"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/fm-piano2/releases/download/2016-11-12/FM-Piano2-SF2-20161112.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 4815653
+    }
+  ]
+}

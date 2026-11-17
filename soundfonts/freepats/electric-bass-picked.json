@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/electric-bass-picked",
+  "name": "Picked Electric Bass (YR)",
+  "vendor": "FreePats",
+  "description": "Picked electric bass recorded from a Yamaha RBX by Andrea Biasior and released to FreePats under CC0.",
+  "homepage": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-bass.html",
+  "source": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-bass.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "bass",
+    "electric bass",
+    "picked"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/electric-bass-YR/releases/download/2019-09-30/PickedBassYR-SF2-20190930.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 2345077
+    }
+  ]
+}

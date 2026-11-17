@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/steel-string-guitar",
+  "name": "Steel-String Guitar (small)",
+  "vendor": "FreePats",
+  "description": "Steel-string acoustic guitar assembled from FlameStudios' Seagull samples; small variant. GPL-3.0, like the rest of the bank's samples.",
+  "homepage": "https://freepats.zenvoid.org/Guitar/steel-acoustic-guitar.html",
+  "source": "https://freepats.zenvoid.org/Guitar/steel-acoustic-guitar.html",
+  "license": "GPL-3.0-only",
+  "license_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "guitar",
+    "acoustic guitar",
+    "steel string"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Guitar/FSS-SteelStringGuitar/FSS-SteelStringGuitar-small-SF2-20200521.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 2749164
+    }
+  ]
+}

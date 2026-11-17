@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/ocarina",
+  "name": "Ocarina",
+  "vendor": "FreePats",
+  "description": "Ocarina from Xavimart's instrument collection, recorded for FreePats.",
+  "homepage": "https://freepats.zenvoid.org/Wind/ocarina.html",
+  "source": "https://freepats.zenvoid.org/Wind/ocarina.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "ocarina",
+    "wind",
+    "folk"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/ocarina1/releases/download/2024-10-02/Ocarina-SF2-20241002.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 3183518
+    }
+  ]
+}

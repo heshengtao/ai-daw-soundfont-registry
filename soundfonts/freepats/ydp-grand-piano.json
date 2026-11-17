@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/ydp-grand-piano",
+  "name": "YDP Grand Piano",
+  "vendor": "FreePats",
+  "description": "Built from the Zenph Studios Yamaha Disklavier Pro multisamples for OLPC, adapted to SF2 by FreePats; CC-BY-3.0.",
+  "homepage": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+  "source": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "piano",
+    "grand piano",
+    "yamaha"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Piano/YDP-GrandPiano/YDP-GrandPiano-SF2-20160804.tar.bz2",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.bz2",
+      "size": 36737684
+    }
+  ]
+}

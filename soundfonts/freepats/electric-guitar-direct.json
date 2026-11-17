@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/electric-guitar-direct",
+  "name": "Electric Guitar Direct (DI)",
+  "vendor": "FreePats",
+  "description": "The raw direct-input signal of a Fender electric guitar, meant to be fed through an amp simulator rather than played dry.",
+  "homepage": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-guitar.html",
+  "source": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-guitar.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "guitar",
+    "electric guitar",
+    "di",
+    "dry"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/electric-guitar-FSBS-direct/releases/download/2022-09-11/EGuitarFSBS-direct-SF2-20220911.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 63256498
+    }
+  ]
+}

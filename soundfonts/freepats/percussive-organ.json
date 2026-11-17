@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/percussive-organ",
+  "name": "Percussive Organ",
+  "vendor": "FreePats",
+  "description": "Percussive Hammond organ variation by the Strix SoundFont Team.",
+  "homepage": "https://freepats.zenvoid.org/Organ/electric-organ.html",
+  "source": "https://freepats.zenvoid.org/Organ/electric-organ.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "organ",
+    "hammond",
+    "percussive"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Organ/PercussiveOrganEmulation/PercussiveOrganEmulation-SF2-20190715.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 12348808
+    }
+  ]
+}

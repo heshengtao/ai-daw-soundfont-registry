@@ -1,0 +1,29 @@
+{
+  "slug": "timbrechbill/timgm6mb",
+  "name": "TimGM6mb",
+  "vendor": "Tim Brechbill",
+  "description": "The 6 MB General MIDI bank that shipped with MuseScore 1: small enough to load on any laptop, still a serviceable GM fallback. GPL-2.0.",
+  "homepage": "https://packages.debian.org/sid/timgm6mb-soundfont",
+  "source": "https://packages.debian.org/sid/timgm6mb-soundfont",
+  "license": "GPL-2.0-only",
+  "license_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "gm",
+  "tags": [
+    "gm",
+    "lightweight",
+    "classic"
+  ],
+  "files": [
+    {
+      "url": "https://deb.debian.org/debian/pool/main/t/timgm6mb-soundfont/timgm6mb-soundfont_1.3.orig.tar.gz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.gz",
+      "size": 5560953
+    }
+  ]
+}

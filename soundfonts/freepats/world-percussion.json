@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/world-percussion",
+  "name": "World Percussion",
+  "vendor": "FreePats",
+  "description": "Hand percussion from Xavimart's collection: cajón, bongos, egg shaker, tambourine, claps, claves, castanets, conga, maracas and darbuka.",
+  "homepage": "https://freepats.zenvoid.org/Percussion/world-and-rare-percussion.html",
+  "source": "https://freepats.zenvoid.org/Percussion/world-and-rare-percussion.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "percussion",
+    "world",
+    "hand percussion"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/world-percussion/releases/download/2020-09-05/WorldPercussion-SF2-20200905.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 5100075
+    }
+  ]
+}

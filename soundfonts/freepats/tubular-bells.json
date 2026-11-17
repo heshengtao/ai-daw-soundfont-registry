@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/tubular-bells",
+  "name": "Tubular Bells",
+  "vendor": "FreePats",
+  "description": "Tubular bells assembled from Versilian Community Sample Library samples; the small SF2 variant keeps the strike and the long decay without the full multisample weight.",
+  "homepage": "https://freepats.zenvoid.org/ChromaticPercussion/tubular-bells.html",
+  "source": "https://freepats.zenvoid.org/ChromaticPercussion/tubular-bells.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "tubular bells",
+    "bells",
+    "percussion"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/tubular-bells1/releases/download/2024-11-30/TubularBells-small-SF2-20241130.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 4492697
+    }
+  ]
+}

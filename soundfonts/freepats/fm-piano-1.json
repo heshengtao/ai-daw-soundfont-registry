@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/fm-piano-1",
+  "name": "FM Piano #1 (DX7 E.Piano)",
+  "vendor": "FreePats",
+  "description": "The Yamaha DX7 'E. Piano 1' patch, recorded from the Hexter software synthesizer: the glassy FM electric piano of countless 1980s records.",
+  "homepage": "https://freepats.zenvoid.org/ElectricPiano/synthesized-piano.html",
+  "source": "https://freepats.zenvoid.org/ElectricPiano/synthesized-piano.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "piano",
+    "electric piano",
+    "fm",
+    "dx7"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/fm-piano1/releases/download/2019-09-16/FM-Piano1-SF2-20190916.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 13727542
+    }
+  ]
+}

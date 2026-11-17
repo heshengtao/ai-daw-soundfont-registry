@@ -1,0 +1,30 @@
+{
+  "slug": "freepats/electric-guitar-distorted-2",
+  "name": "Electric Guitar Distorted #2",
+  "vendor": "FreePats",
+  "description": "FSBS distorted electric guitar #2, a heavier voicing of the same recorded instrument.",
+  "homepage": "https://freepats.zenvoid.org/ElectricGuitar/distorted-electric-guitar.html",
+  "source": "https://freepats.zenvoid.org/ElectricGuitar/distorted-electric-guitar.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "guitar",
+    "electric guitar",
+    "distorted",
+    "metal"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/electric-guitar-FSBS-dist2/releases/download/2022-09-11/EGuitarFSBS-dist2-SF2-20220911.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 127358936
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/new-age-pad",
+  "name": "New Age Pad",
+  "vendor": "FreePats",
+  "description": "General MIDI program 89 (Synth Pad 1, new age) from ZynAddSubFX/Yoshimi.",
+  "homepage": "https://freepats.zenvoid.org/Synthesizer/synth-pad.html",
+  "source": "https://freepats.zenvoid.org/Synthesizer/synth-pad.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "pad",
+    "gm"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/freepats/new-age/releases/download/2019-07-30/NewAge-SF2-20190730.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 7792228
+    }
+  ]
+}

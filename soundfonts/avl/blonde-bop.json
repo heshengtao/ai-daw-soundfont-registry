@@ -1,0 +1,28 @@
+{
+  "slug": "avl/blonde-bop",
+  "name": "AVL Drumkits — Blonde Bop",
+  "vendor": "AVL Drumkits",
+  "description": "Blonde Bop kit: a tight, dry jazz-leaning kit with 5-10 velocity layers per piece. CC-BY-SA-3.0.",
+  "homepage": "https://www.bandshed.net/avldrumkits/",
+  "source": "https://www.bandshed.net/avldrumkits/",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "drumkit",
+  "tags": [
+    "drums",
+    "acoustic",
+    "jazz"
+  ],
+  "files": [
+    {
+      "url": "https://www.bandshed.net/sounds/AVLDrumkits_SF2/Blonde_Bop_LV2.sf2",
+      "format": "sf2",
+      "install": "file",
+      "size": 31399792
+    }
+  ]
+}

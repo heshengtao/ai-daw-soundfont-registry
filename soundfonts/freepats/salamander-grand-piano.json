@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/salamander-grand-piano",
+  "name": "Salamander Grand Piano",
+  "vendor": "FreePats",
+  "description": "Alexander Holm's Salamander grand piano converted to SF2 by FreePats. CC-BY-3.0, so credit the original recording (and FreePats for the conversion) when you use it.",
+  "homepage": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+  "source": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "piano",
+    "grand piano",
+    "acoustic"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPiano-SF2-V3+20200602.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 310397984
+    }
+  ]
+}
