@@ -88,9 +88,10 @@ by hand.
 client **must** only offer one-click install for archive kinds it can actually
 extract, and fall back to opening the URL otherwise.
 
-## How AI DAW will load it
+## How AI DAW loads it
 
-Planned client behaviour, mirroring the plugin store (`crates/daemon/src/manager.rs`):
+Client behaviour (implemented in `crates/daemon/src/soundfont_store.rs`), mirroring the
+plugin store:
 
 1. Fresh local cache (6 hour TTL)
 2. Configured registry mirrors
