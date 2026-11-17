@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/synthesizer-percussion",
+  "name": "Synthesizer Percussion",
+  "vendor": "FreePats",
+  "description": "Synthesised percussion hits (claps, blips, toms) for electronic parts.",
+  "homepage": "https://freepats.zenvoid.org/Percussion/electric-percussion.html",
+  "source": "https://freepats.zenvoid.org/Percussion/electric-percussion.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "percussion",
+    "synthesizer",
+    "electronic"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Percussion/SynthesizerPercussion/SynthesizerPercussion-SF2-20220718.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 1027681
+    }
+  ]
+}

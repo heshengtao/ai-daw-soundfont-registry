@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/electric-organ",
+  "name": "Rock Organ Emulation",
+  "vendor": "FreePats",
+  "description": "Transistor/rock organ with drawbar-style tone.",
+  "homepage": "https://freepats.zenvoid.org/Organ/electric-organ.html",
+  "source": "https://freepats.zenvoid.org/Organ/electric-organ.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "organ",
+    "electric organ",
+    "rock"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Organ/RockOrganEmulation/RockOrganEmulation-SF2-20190715.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 12549588
+    }
+  ]
+}

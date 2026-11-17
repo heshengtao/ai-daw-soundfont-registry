@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/kalimba",
+  "name": "Kalimba",
+  "vendor": "FreePats",
+  "description": "Thumb piano (kalimba) with soft, bell-like tines.",
+  "homepage": "https://freepats.zenvoid.org/Ethnic/kalimba.html",
+  "source": "https://freepats.zenvoid.org/Ethnic/kalimba.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "kalimba",
+    "thumb piano",
+    "ethnic"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Ethnic/Kalimba/Kalimba-SF2-20190723.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 3848000
+    }
+  ]
+}

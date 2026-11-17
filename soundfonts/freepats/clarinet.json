@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/clarinet",
+  "name": "Clarinet",
+  "vendor": "FreePats",
+  "description": "Clarinet with sustains and short articulations.",
+  "homepage": "https://freepats.zenvoid.org/Reed/clarinet.html",
+  "source": "https://freepats.zenvoid.org/Reed/clarinet.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "clarinet",
+    "reed",
+    "woodwind"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Reed/Clarinet1/Clarinet-SF2-20190818.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 6965072
+    }
+  ]
+}

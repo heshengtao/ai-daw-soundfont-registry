@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/xylophone",
+  "name": "Xylophone (medium mallets)",
+  "vendor": "FreePats",
+  "description": "Medium-mallet xylophone; the archive holds one SF2.",
+  "homepage": "https://freepats.zenvoid.org/ChromaticPercussion/xylophone.html",
+  "source": "https://freepats.zenvoid.org/ChromaticPercussion/xylophone.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "xylophone",
+    "mallet",
+    "percussion"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/ChromaticPercussion/Xylophone1/Xylophone-MediumMallets-SF2-20200706.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 1756892
+    }
+  ]
+}

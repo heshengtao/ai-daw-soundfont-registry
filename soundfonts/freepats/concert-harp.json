@@ -2,15 +2,21 @@
   "slug": "freepats/concert-harp",
   "name": "Concert Harp",
   "vendor": "FreePats",
-  "description": "Concert harp with plucked sustains, small variant. Packaged as a tar.xz archive containing an SF2.",
+  "description": "Concert harp with plucked sustains, small variant. Samples come from the CC0 Versilian Community Sample Library; only the page's promo photo is CC BY-NC.",
   "homepage": "https://freepats.zenvoid.org/OrchestralStrings/harp.html",
   "source": "https://freepats.zenvoid.org/OrchestralStrings/harp.html",
   "license": "CC0-1.0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "redistributable": true,
-  "formats": ["sf2"],
+  "formats": [
+    "sf2"
+  ],
   "kind": "instrument",
-  "tags": ["harp", "orchestral", "freepats"],
+  "tags": [
+    "harp",
+    "orchestral",
+    "freepats"
+  ],
   "files": [
     {
       "url": "https://freepats.zenvoid.org/OrchestralStrings/ConcertHarp/ConcertHarp-small-SF2-20200702.tar.xz",

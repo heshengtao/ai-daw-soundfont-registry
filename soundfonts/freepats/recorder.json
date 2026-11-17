@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/recorder",
+  "name": "Recorder",
+  "vendor": "FreePats",
+  "description": "Recorder (blockflute) with clear, breathy tone. The archive is 7z, so the client links it rather than installing it.",
+  "homepage": "https://freepats.zenvoid.org/Wind/recorder.html",
+  "source": "https://freepats.zenvoid.org/Wind/recorder.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "recorder",
+    "flute",
+    "woodwind"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Wind/Recorder1/Recorder-SF2-20201205.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 8289356
+    }
+  ]
+}

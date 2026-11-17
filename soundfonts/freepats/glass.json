@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/glass",
+  "name": "Glass",
+  "vendor": "FreePats",
+  "description": "Glass harmonica / glass percussion: bell-like, fragile tones.",
+  "homepage": "https://freepats.zenvoid.org/ChromaticPercussion/glass.html",
+  "source": "https://freepats.zenvoid.org/ChromaticPercussion/glass.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "glass",
+    "percussion",
+    "chromatic"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/ChromaticPercussion/Glass/Glass-SF2-20191227.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 10322984
+    }
+  ]
+}

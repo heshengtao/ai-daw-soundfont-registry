@@ -1,0 +1,29 @@
+{
+  "slug": "freepats/pipe-organ",
+  "name": "Church Organ Emulation",
+  "vendor": "FreePats",
+  "description": "Church pipe organ: a big, sustained sound that wants reverb on the track.",
+  "homepage": "https://freepats.zenvoid.org/Organ/pipe-organ.html",
+  "source": "https://freepats.zenvoid.org/Organ/pipe-organ.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": [
+    "sf2"
+  ],
+  "kind": "instrument",
+  "tags": [
+    "organ",
+    "pipe organ",
+    "church"
+  ],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Organ/ChurchOrganEmulation/ChurchOrganEmulation-SF2-20190924.tar.xz",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.xz",
+      "size": 12895300
+    }
+  ]
+}
