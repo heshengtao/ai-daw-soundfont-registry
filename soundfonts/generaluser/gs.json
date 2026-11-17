@@ -1,0 +1,23 @@
+{
+  "slug": "generaluser/gs",
+  "name": "GeneralUser GS",
+  "vendor": "S. Christian Collins",
+  "description": "The best-known lightweight GM/GS bank: 259 instrument presets and 11 drum kits under 30 MB of RAM, tuned for General MIDI playback and retro gaming. Distributed from the author's own site under a custom freeware licence, so this entry links to the download page instead of a direct file.",
+  "homepage": "https://schristiancollins.com/generaluser.php",
+  "source": "https://schristiancollins.com/generaluser.php",
+  "license": "LicenseRef-generaluser-gs",
+  "license_url": "https://schristiancollins.com/generaluser.php",
+  "redistributable": false,
+  "formats": ["sf2"],
+  "kind": "gm",
+  "presets": 259,
+  "tags": ["gm", "gs", "general-midi", "retro", "lightweight"],
+  "files": [
+    {
+      "url": "https://schristiancollins.com/generaluser.php",
+      "format": "sf2",
+      "install": "external",
+      "note": "Custom GeneralUser GS licence: free to use, redistribution needs the author's terms. Add a direct file entry only once a stable, hashable mirror exists."
+    }
+  ]
+}

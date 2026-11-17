@@ -1,0 +1,23 @@
+{
+  "slug": "freepats/upright-piano-kw",
+  "name": "Upright Piano KW (small)",
+  "vendor": "FreePats",
+  "description": "FreePats' upright piano, small variant: one velocity layer per key, light enough to load on a laptop. 7z archive containing an SF2.",
+  "homepage": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+  "source": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": ["sf2"],
+  "kind": "instrument",
+  "tags": ["piano", "acoustic", "freepats"],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Piano/UprightPianoKW/UprightPianoKW-small-SF2-20190703.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 6093984
+    }
+  ]
+}

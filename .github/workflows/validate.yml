@@ -1,0 +1,36 @@
+name: Validate registry
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate and regenerate registry.json
+        run: node scripts/validate.mjs
+      - name: registry.json must be committed
+        run: git diff --exit-code registry.json
+
+  verify-downloads:
+    # Network checks are opt-in and never block a PR: the mirrors are slow and
+    # occasionally refuse HEAD requests from CI.
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: HEAD every download URL
+        run: node scripts/validate.mjs --verify-files --check

@@ -1,0 +1,21 @@
+AI DAW SoundFont Registry
+Copyright the AI DAW SoundFont Registry authors. Metadata licensed under CC0-1.0.
+
+The registry schema follows the shape of the AI Cut OFX Registry
+(https://github.com/heshengtao/ai-cut-ofx-registry), which in turn was inspired
+by the Open Audio Stack Registry
+(https://github.com/open-audio-stack/open-audio-stack-registry). Both are
+CC0-1.0.
+
+Candidate metadata may be drafted from the Musical Artifacts catalogue
+(https://musical-artifacts.com/). Musical Artifacts aggregates third-party
+artefacts; its licence codes are placeholders here and are always replaced by a
+reviewed, real licence before an entry is merged.
+
+This repository contains metadata only. It does not contain third-party `.sf2`
+or `.sf3` data, cover art, samples, or screenshots. Each bank declares its own
+licence in its entry; that licence governs the bank, not this JSON.
+
+SoundFont is a trademark of Creative Technology Ltd. Bank and product names may
+be trademarks of their respective owners. This registry claims no ownership
+over them.

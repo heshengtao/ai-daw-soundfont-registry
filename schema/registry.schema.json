@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/heshengtao/ai-daw-soundfont-registry/main/schema/registry.schema.json",
+  "title": "AI DAW SoundFont Registry",
+  "description": "A static index of downloadable SoundFont 2 (.sf2) and SoundFont 3 (.sf3) banks. Metadata only: this repository never hosts bank data.",
+  "type": "object",
+  "required": ["schema_version", "soundfonts"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "soundfonts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/soundfont" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "soundfont": {
+      "type": "object",
+      "required": ["slug", "name", "license", "source", "formats", "files"],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9._-]*/[a-z0-9][a-z0-9._-]*$",
+          "description": "Stable identity, vendor/name in lowercase kebab-case. Never reused for a different bank."
+        },
+        "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "vendor": { "type": "string", "maxLength": 80 },
+        "description": { "type": "string", "maxLength": 600 },
+        "homepage": { "type": "string", "pattern": "^https://" },
+        "source": {
+          "type": "string",
+          "pattern": "^https://",
+          "description": "Authoritative project or distribution page."
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1,
+          "description": "SPDX identifier, a Creative Commons identifier, or LicenseRef-<slug> for a custom licence (then license_url is required)."
+        },
+        "license_url": { "type": "string", "pattern": "^https://" },
+        "redistributable": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether the licence lets third parties redistribute the bank files themselves. Non-commercial and no-derivatives licences must be false."
+        },
+        "formats": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["sf2", "sf3"] }
+        },
+        "kind": {
+          "enum": ["gm", "instrument", "drumkit", "collection"],
+          "description": "gm = General MIDI / GS / XG bank; instrument = one or a few instruments; drumkit = drum-only; collection = many separate banks in one archive."
+        },
+        "presets": { "type": "integer", "minimum": 1, "maximum": 10000 },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1, "maxLength": 40 }
+        },
+        "files": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/file" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "file": {
+      "type": "object",
+      "required": ["url", "format", "install"],
+      "properties": {
+        "url": { "type": "string", "pattern": "^https://" },
+        "format": { "enum": ["sf2", "sf3"] },
+        "install": {
+          "enum": ["file", "archive", "external"],
+          "description": "file = the URL serves one .sf2/.sf3 directly; archive = the URL serves an archive containing banks; external = the URL is a page a human opens in a browser."
+        },
+        "archive": {
+          "enum": ["zip", "tar.gz", "tar.bz2", "tar.xz", "7z"],
+          "description": "Required when install = archive. Clients must only offer one-click install for archive kinds they can extract."
+        },
+        "size": { "type": "integer", "minimum": 1 },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "note": { "type": "string", "maxLength": 240 }
+      },
+      "additionalProperties": false
+    }
+  }
+}

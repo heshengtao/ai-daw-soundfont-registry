@@ -1,0 +1,29 @@
+{
+  "slug": "musescore/general",
+  "name": "MuseScore General",
+  "vendor": "MuseScore",
+  "description": "The General MIDI bank shipped with MuseScore: 128 melodic presets plus a drum kit, built on FluidR3Mono samples. The SF3 file is roughly 38 MB, the uncompressed SF2 roughly 206 MB.",
+  "homepage": "https://musescore.org/en/handbook/4/soundfonts",
+  "source": "https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/",
+  "license": "MIT",
+  "license_url": "https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General_License.md",
+  "redistributable": true,
+  "formats": ["sf2", "sf3"],
+  "kind": "gm",
+  "presets": 128,
+  "tags": ["gm", "general-midi", "orchestral", "musescore"],
+  "files": [
+    {
+      "url": "https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General.sf3",
+      "format": "sf3",
+      "install": "file",
+      "size": 39900972
+    },
+    {
+      "url": "https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General.sf2",
+      "format": "sf2",
+      "install": "file",
+      "size": 215614036
+    }
+  ]
+}

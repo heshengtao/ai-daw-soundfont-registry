@@ -1,0 +1,23 @@
+{
+  "slug": "freepats/spanish-classical-guitar",
+  "name": "Spanish Classical Guitar",
+  "vendor": "FreePats",
+  "description": "Nylon-string classical guitar with round-robin and multiple velocity layers, packaged as a 7z archive containing an SF2.",
+  "homepage": "https://freepats.zenvoid.org/Guitar/acoustic-guitar.html",
+  "source": "https://freepats.zenvoid.org/Guitar/acoustic-guitar.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": ["sf2"],
+  "kind": "instrument",
+  "tags": ["guitar", "nylon", "acoustic", "freepats"],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Guitar/SpanishClassicalGuitar/SpanishClassicalGuitar-SF2-20190618.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 9990750
+    }
+  ]
+}

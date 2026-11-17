@@ -1,0 +1,23 @@
+{
+  "slug": "freepats/tenor-saxophone",
+  "name": "Tenor Saxophone",
+  "vendor": "FreePats",
+  "description": "Tenor saxophone with sustains and staccatos, small variant. Packaged as a tar.bz2 archive containing an SF2.",
+  "homepage": "https://freepats.zenvoid.org/Reed/saxophone.html",
+  "source": "https://freepats.zenvoid.org/Reed/saxophone.html",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": ["sf2"],
+  "kind": "instrument",
+  "tags": ["saxophone", "tenor", "reed", "freepats"],
+  "files": [
+    {
+      "url": "https://freepats.zenvoid.org/Reed/TenorSaxophone/TenorSaxophone-small-SF2-20200717.tar.bz2",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "tar.bz2",
+      "size": 6786876
+    }
+  ]
+}

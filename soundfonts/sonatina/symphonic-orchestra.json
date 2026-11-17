@@ -1,0 +1,23 @@
+{
+  "slug": "sonatina/symphonic-orchestra",
+  "name": "Sonatina Symphonic Orchestra (SF2)",
+  "vendor": "Mattias Westlund",
+  "description": "A complete free orchestral library converted from the original SFZ release into SoundFont banks: strings, woodwinds, brass, percussion, piano, harpsichord and chorus. 398 MB zip, so expect a long download.",
+  "source": "https://ftp.osuosl.org/pub/musescore/soundfont/",
+  "license": "LicenseRef-cc-sampling-plus-1.0",
+  "license_url": "https://creativecommons.org/licenses/sampling+/1.0/",
+  "redistributable": false,
+  "formats": ["sf2"],
+  "kind": "collection",
+  "tags": ["orchestral", "strings", "brass", "woodwinds", "percussion"],
+  "files": [
+    {
+      "url": "https://ftp.osuosl.org/pub/musescore/soundfont/Sonatina_Symphonic_Orchestra_SF2.zip",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "zip",
+      "size": 417656133,
+      "note": "The original sample library is under the obsolete CC Sampling Plus 1.0 licence, which forbids commercial redistribution."
+    }
+  ]
+}

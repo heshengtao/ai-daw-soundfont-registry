@@ -1,0 +1,23 @@
+{
+  "slug": "freepats/electric-guitar-clean",
+  "name": "Electric Guitar Clean (bridge, small)",
+  "vendor": "FreePats",
+  "description": "FSBS electric guitar, clean bridge pickups, small variant. Hosted as a GitHub release asset from the FreePats project itself.",
+  "homepage": "https://freepats.zenvoid.org/ElectricGuitar/clean-electric-guitar.html",
+  "source": "https://github.com/freepats/electric-guitar-FSBS-clean",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "redistributable": true,
+  "formats": ["sf2"],
+  "kind": "instrument",
+  "tags": ["guitar", "electric", "clean", "freepats"],
+  "files": [
+    {
+      "url": "https://github.com/freepats/electric-guitar-FSBS-clean/releases/download/2026-08-07/EGuitarFSBS-clean-bridge-small-SF2-20260807.7z",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "7z",
+      "size": 6599454
+    }
+  ]
+}

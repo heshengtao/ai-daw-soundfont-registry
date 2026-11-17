@@ -1,0 +1,23 @@
+{
+  "slug": "fluidr3/gm",
+  "name": "FluidR3 GM",
+  "vendor": "Frank Wen",
+  "description": "The classic free General MIDI SoundFont by Frank Wen, distributed as a zip containing FluidR3_GM.sf2. Larger and more detailed than MuseScore General, and the sample base both that bank and FluidR3Mono derive from.",
+  "source": "https://ftp.osuosl.org/pub/musescore/soundfont/",
+  "license": "MIT",
+  "license_url": "https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General_License.md",
+  "redistributable": true,
+  "formats": ["sf2"],
+  "kind": "gm",
+  "presets": 128,
+  "tags": ["gm", "general-midi", "classic", "fluidr3"],
+  "files": [
+    {
+      "url": "https://ftp.osuosl.org/pub/musescore/soundfont/fluid-soundfont.zip",
+      "format": "sf2",
+      "install": "archive",
+      "archive": "zip",
+      "size": 131834190
+    }
+  ]
+}
