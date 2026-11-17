@@ -82,11 +82,11 @@ by hand.
 
 ### Archive kinds and client support
 
-`archive` is one of `zip`, `tar.gz`, `tar.bz2`, `tar.xz`, `7z`. AI DAW 1.9
-extracts `zip` and `tar.gz`; `7z` / `tar.xz` / `tar.bz2` entries are listed for
-clients that grow support. A client **must** only offer one-click install for
-archive kinds it can actually extract, and fall back to opening the URL
-otherwise.
+`archive` is one of `zip`, `tar.gz`, `tar.bz2`, `tar.xz`, `7z`. AI DAW extracts
+`zip`, `tar.gz`, `tar.bz2` and `tar.xz`; `7z` is listed but needs a client with a
+7z decoder, so those entries currently fall back to "download it yourself". A
+client **must** only offer one-click install for archive kinds it can actually
+extract, and fall back to opening the URL otherwise.
 
 ## How AI DAW will load it
 
