@@ -83,10 +83,10 @@ by hand.
 ### Archive kinds and client support
 
 `archive` is one of `zip`, `tar.gz`, `tar.bz2`, `tar.xz`, `7z`. AI DAW extracts
-`zip`, `tar.gz`, `tar.bz2` and `tar.xz`; `7z` is listed but needs a client with a
-7z decoder, so those entries currently fall back to "download it yourself". A
-client **must** only offer one-click install for archive kinds it can actually
-extract, and fall back to opening the URL otherwise.
+all five (7z through a pure-Rust decoder), so every archive entry in this
+registry is one-click installable. A client should still only offer one-click
+install for archive kinds it can actually extract, and fall back to opening the
+URL otherwise.
 
 ## How AI DAW loads it
 
