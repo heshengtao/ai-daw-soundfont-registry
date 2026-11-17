@@ -23,7 +23,8 @@
       "format": "sf2",
       "install": "archive",
       "archive": "tar.bz2",
-      "size": 1897559
+      "size": 1897559,
+      "sha256": "551ae818aa71e5008f45318121191ffe432007f09002bdf215704370a07791da"
     }
   ]
 }

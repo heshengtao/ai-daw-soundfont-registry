@@ -7,9 +7,17 @@
   "license": "LicenseRef-cc-sampling-plus-1.0",
   "license_url": "https://creativecommons.org/licenses/sampling+/1.0/",
   "redistributable": false,
-  "formats": ["sf2"],
+  "formats": [
+    "sf2"
+  ],
   "kind": "collection",
-  "tags": ["orchestral", "strings", "brass", "woodwinds", "percussion"],
+  "tags": [
+    "orchestral",
+    "strings",
+    "brass",
+    "woodwinds",
+    "percussion"
+  ],
   "files": [
     {
       "url": "https://ftp.osuosl.org/pub/musescore/soundfont/Sonatina_Symphonic_Orchestra_SF2.zip",
@@ -17,7 +25,8 @@
       "install": "archive",
       "archive": "zip",
       "size": 417656133,
-      "note": "The original sample library is under the obsolete CC Sampling Plus 1.0 licence, which forbids commercial redistribution."
+      "note": "The original sample library is under the obsolete CC Sampling Plus 1.0 licence, which forbids commercial redistribution.",
+      "sha256": "8ce01d7f3d6ecdbf0dc2a749f69e88e65917a57422a1741c3d1aaa5ed92bf71c"
     }
   ]
 }

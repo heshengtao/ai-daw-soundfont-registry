@@ -8,16 +8,24 @@
   "license": "CC0-1.0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "redistributable": true,
-  "formats": ["sf2"],
+  "formats": [
+    "sf2"
+  ],
   "kind": "instrument",
-  "tags": ["guitar", "electric", "clean", "freepats"],
+  "tags": [
+    "guitar",
+    "electric",
+    "clean",
+    "freepats"
+  ],
   "files": [
     {
       "url": "https://github.com/freepats/electric-guitar-FSBS-clean/releases/download/2026-08-07/EGuitarFSBS-clean-bridge-small-SF2-20260807.7z",
       "format": "sf2",
       "install": "archive",
       "archive": "7z",
-      "size": 6599454
+      "size": 6599454,
+      "sha256": "bcea7d4c92a1cc6a26e545a218b34e59037d4bab6cf0fce24396428e6934d69c"
     }
   ]
 }

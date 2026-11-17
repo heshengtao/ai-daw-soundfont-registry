@@ -8,16 +8,24 @@
   "license": "CC0-1.0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "redistributable": true,
-  "formats": ["sf2"],
+  "formats": [
+    "sf2"
+  ],
   "kind": "instrument",
-  "tags": ["guitar", "nylon", "acoustic", "freepats"],
+  "tags": [
+    "guitar",
+    "nylon",
+    "acoustic",
+    "freepats"
+  ],
   "files": [
     {
       "url": "https://freepats.zenvoid.org/Guitar/SpanishClassicalGuitar/SpanishClassicalGuitar-SF2-20190618.7z",
       "format": "sf2",
       "install": "archive",
       "archive": "7z",
-      "size": 9990750
+      "size": 9990750,
+      "sha256": "8c192f1fc640a553199a4a43a17ae12354a6a05e3d6aad79bd43b5d29314ff51"
     }
   ]
 }

@@ -23,7 +23,8 @@
       "format": "sf2",
       "install": "archive",
       "archive": "7z",
-      "size": 8289356
+      "size": 8289356,
+      "sha256": "60258c60fcef9e398aca22749cdbeaba792b8fa7c9115e63ceef3aff5d4bd1c0"
     }
   ]
 }

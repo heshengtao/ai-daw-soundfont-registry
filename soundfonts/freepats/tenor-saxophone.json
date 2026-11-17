@@ -8,16 +8,24 @@
   "license": "CC0-1.0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "redistributable": true,
-  "formats": ["sf2"],
+  "formats": [
+    "sf2"
+  ],
   "kind": "instrument",
-  "tags": ["saxophone", "tenor", "reed", "freepats"],
+  "tags": [
+    "saxophone",
+    "tenor",
+    "reed",
+    "freepats"
+  ],
   "files": [
     {
       "url": "https://freepats.zenvoid.org/Reed/TenorSaxophone/TenorSaxophone-small-SF2-20200717.tar.bz2",
       "format": "sf2",
       "install": "archive",
       "archive": "tar.bz2",
-      "size": 6786876
+      "size": 6786876,
+      "sha256": "fd45d0234b455f54300a5286594da5753b5619a86ebc34ebf574b21044b18db4"
     }
   ]
 }

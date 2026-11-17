@@ -8,16 +8,23 @@
   "license": "CC0-1.0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "redistributable": true,
-  "formats": ["sf2"],
+  "formats": [
+    "sf2"
+  ],
   "kind": "instrument",
-  "tags": ["piano", "acoustic", "freepats"],
+  "tags": [
+    "piano",
+    "acoustic",
+    "freepats"
+  ],
   "files": [
     {
       "url": "https://freepats.zenvoid.org/Piano/UprightPianoKW/UprightPianoKW-small-SF2-20190703.7z",
       "format": "sf2",
       "install": "archive",
       "archive": "7z",
-      "size": 6093984
+      "size": 6093984,
+      "sha256": "3bd025e7c2ffa9e6f3f99215ce383c9cebbac991cfbf9be1453cdb4328ec3492"
     }
   ]
 }
