@@ -88,7 +88,9 @@ clients that grow support. A client **must** only offer one-click install for
 archive kinds it can actually extract, and fall back to opening the URL
 otherwise.
 
-## Loading order in AI DAW
+## How AI DAW will load it
+
+Planned client behaviour, mirroring the plugin store (`crates/daemon/src/manager.rs`):
 
 1. Fresh local cache (6 hour TTL)
 2. Configured registry mirrors
