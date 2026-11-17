@@ -1,0 +1,43 @@
+name: Fill hashes
+
+# 注册表里 `size` 是导入时用 HEAD 量的，`sha256` 需要把文件完整读一遍——本地带宽不够时
+# 就交给这里：GitHub 的机房网络几分钟下完，然后把结果提交回去。
+#
+# 只补缺失的（`--only-missing`）：已经算过的条目不会被反复下载。
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每月 1 日 04:00 UTC：新条目提交后最多一个月就会补齐校验和。
+    - cron: "0 4 1 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Stream every file once and fill size + sha256
+        run: node scripts/fill-hashes.mjs --all --only-missing
+
+      - name: Validate the result
+        run: node scripts/validate.mjs
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "ai-daw-soundfont-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add soundfonts registry.json
+          if git diff --cached --quiet; then
+            echo "没有需要补的校验和"
+            exit 0
+          fi
+          git commit -m "chore: fill missing sizes and sha256"
+          git push
