@@ -95,9 +95,10 @@ plugin store:
 
 1. Fresh local cache (6 hour TTL)
 2. Configured registry mirrors
-3. `https://raw.githubusercontent.com/heshengtao/ai-daw-soundfont-registry/main/registry.json`
-4. Stale local cache
-5. Registry snapshot bundled with the app
+3. `https://heshengtao.github.io/ai-daw-soundfont-registry/registry.json` (GitHub Pages)
+4. jsDelivr, then `raw.githubusercontent.com` (mirrors for networks where raw is reset)
+5. Stale local cache
+6. Registry snapshot bundled with the app
 
 ## Contributing a bank
 
